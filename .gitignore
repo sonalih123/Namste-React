@@ -1,0 +1,11 @@
+#git ignore
+#dependency
+node_modules/
+
+# build files
+dist/
+
+#cache
+.parcel_cache/
+
+
