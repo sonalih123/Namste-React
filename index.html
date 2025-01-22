@@ -21,14 +21,16 @@
       </script> -->
     <!-- now will write same thing in react by using cdn -->
     
-        <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-        <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+        <!-- <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> -->
         <!-- <script>
             const heading=React.createElement("h1",{}, "Hello from React js" );
             const root=ReactDOM.createRoot(document.getElementById("root"));
             root.render(heading)
         </script> -->
         <!-- now will create different file for js  -->
-         <script src="./App.js"></script>
+         <!-- <script src="./App.js"></script>    -->
+         <!-- now will install react and dom and we no need of above scripts  so let's it throws error saying browser scripts cannot have imports so will make changes in script as bellow --> 
+         <script type="module" src="./App.js"></script>   
 </body>
 </html>
